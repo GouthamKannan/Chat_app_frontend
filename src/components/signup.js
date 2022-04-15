@@ -73,7 +73,7 @@ export default class Signup extends Component {
     render() {
         return (
 
-            <div className = "auth-wrapper"  style = {{"margin-top": "1%", "margin-bottom": "1%" } } >
+            <div className = "auth-wrapper background"  style = {{"margin-top": "1%", "margin-bottom": "1%" } } >
                 <div className = "auth-inner" >
                     <form onSubmit = { this.register_user } >
                         <h3 > Sign up </h3>
