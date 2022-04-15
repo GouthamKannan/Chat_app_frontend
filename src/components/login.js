@@ -72,7 +72,7 @@ export default class Login extends Component {
     render() {
         return (
             <>
-            <div className="auth-wrapper" style = {{ "margin-top": "5%", "margin-bottom" : "5%"} }>
+            <div className="auth-wrapper background" style = {{ "margin-top": "5%", "margin-bottom" : "5%"} }>
                 <div className="auth-inner">
                     <form onSubmit={this.login_user}>
                         <h3>Log In</h3>
